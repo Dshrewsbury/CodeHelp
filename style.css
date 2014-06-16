@@ -1,89 +1,84 @@
 body {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 14px;
-    color: black;
-    background-color: white;
-    margin: 20px;
-    padding: 0;
-}
-
-/* This is a comment, by the way */
-
-p {
-    line-height: 21px;
-    font: 14px/1.5 "Times New Roman", times, serif;
-    padding: 30px 10px;
-    border: 1px black solid;
-    border-width: 1px 5px 5px 1px;
-    border-color: black;
-    margin: 10px 50px;
-}
-
-h1 {
-    color: #ffc;
-    background-color: white;
-    font-size: 2em;
-    margin: 0;
-    margin-bottom: 7px;
-    padding: 4px;
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #c00;
-}
-
-h2 {
-    color: black;
-    background-color: white;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 2px;
-    padding-left: 14px;
-    
-}
-
-h3 {
-    color: #999;
-    font-size: 1.25em;
-}
-
-img {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ccc;
-}
-
-a {
-    text-decoration: none;
-}
-
-strong {
-    font-style: italic;
-    text-transform: uppercase;
-}
-
-li {
-    color: #900;
-    font-style: italic;
-}
-
-table {
-    background-color: #ccc;
-}
-
-#navigation {
-	 position: absolute;
-	 width: 200px;
-	 top: 60px;
-	 margin-top: 0.5em; 
-     left: 0;
-        
-}
-
-#content {
-           xpadding: 1px 1em 2em 1em;
-	 		border-left: 134px solid #069;
+			font: 80% arial, helvetica, sans-serif;
+			background: #ccc url(images/lizards2.gif);
+			margin: 0;
+		}
+		
+		.accessaid, h1 {
+			position: absolute;
+			height: 0;
+			overflow: hidden;
+		}
+		
+		#header {
+			background: #036 url(images/charlesdarwin.gif);
+			height: 60px;
+		}
+		
+		#navigation {
+			position: absolute;
+			top: 60px;
+			margin-top: 0.5em;
+			left: 0;
+			width: 134px;
+		}
+		
+		#navigation ul {
+			margin: 0 0 1em 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		#navigation ul a {
+			color: white;
+			text-decoration: none;
+			display: block;
+			background: #17a;
+			border-left: 3px solid #28b;
+			padding: 0 0.5em;
+			margin: 0 1em 3px 1em;
+		}
+		
+		#navigation a:visited {
+			color: #ccc;
+		}
+		
+		#navigation a:hover {
+			background: #39c;
+			border-color: white;
+		}
+		
+		#content {
+			xbackground: white url(images/lizards.gif) 134px 0 repeat-y;
+			xpadding: 1px 1em 2em 1em;
+			border-left: 134px solid #069;
+			background: white url(images/lizards.gif) repeat-y;
 			padding: 1px 20px 1em 40px;
-}
+		}
+		h2 {
+			font-size: 1.5em;
+			color: #036;
+		}
+		
+		h3 {
+			font-size: 1.25em;
+			color: #036;
+		}
+		
+		#content img {
+			width: 100px;
+			height: 150px;
+			padding: 1px;
+			border: 1px solid #333;
+			float: right;
+			margin: 0 0 1em 1em;
+		}
+		
+		#container {
+			position: relative;
+			width: 586px; /* width + border for IE 5.x */
+			w\idth: 580px; /* real width */
+			border: solid #036;
+			border-width: 0 3px;
+			margin: auto;
+		}
