@@ -1,6 +1,6 @@
-body {
+		body {
 			font: 80% arial, helvetica, sans-serif;
-			background: #ccc url(images/lizards2.gif);
+			background: #ccc url(large_leather.png);
 			margin: 0;
 		}
 		
@@ -11,7 +11,7 @@ body {
 		}
 		
 		#header {
-			background: #036 url(images/charlesdarwin.gif);
+			background: #036;
 			height: 60px;
 		}
 		
@@ -49,12 +49,15 @@ body {
 		}
 		
 		#content {
-			xbackground: white url(images/lizards.gif) 134px 0 repeat-y;
+			xbackground: white  134px 0 repeat-y;
 			xpadding: 1px 1em 2em 1em;
 			border-left: 134px solid #069;
-			background: white url(images/lizards.gif) repeat-y;
+			background: white  repeat-y;
 			padding: 1px 20px 1em 40px;
+			height: 900px;
+			
 		}
+		
 		h2 {
 			font-size: 1.5em;
 			color: #036;
@@ -76,9 +79,11 @@ body {
 		
 		#container {
 			position: relative;
-			width: 586px; /* width + border for IE 5.x */
-			w\idth: 580px; /* real width */
+			width: 906px; /* width + border for IE 5.x */
+			w\idth: 980px; /* real width */
 			border: solid #036;
 			border-width: 0 3px;
 			margin: auto;
 		}
+		
+	
